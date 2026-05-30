@@ -39,7 +39,7 @@ An interactive learning platform, serverless sandbox, and virtual cloud simulati
 ---
 
 ## 📁 Shared File Architecture
-The sandbox is built from highly cohesive, split modules organizing frontend interactions and configuration structures:
+The sandbox is built from highly cohesive, split modules organizing frontend interactions, configuration structures, and production-grade Python automation scripts:
 
 *   **`index.html`**: Host framing document holding the applet element hooks.
 *   **`package.json`**: Setup manifest managing npm build assets, development dependencies, and system builders.
@@ -54,6 +54,14 @@ The sandbox is built from highly cohesive, split modules organizing frontend int
     *   **`CodeWorkspace.tsx`**: Features an interactive Python coding board, dimension adjustments, and mock Azure connection string keys.
     *   **`StorageExplorer.tsx`**: Features a fully virtualized file explorer allowing custom uploads, preset creations, file-by-file property details, and block deletions.
     *   **`SimulatorConsole.tsx`**: Features high-fidelity logs of Python serverless containers launching, reading blobs, applying PIL operations, and saving buffers.
+*   **`python/` / Root Scripts (The Python Showcase Scripts)**:
+    *   **`python/bulk_image_compressor.py`**: A fully functional, multithreaded image compression script designed to parse, resize, and store optimized local media folders concurrently.
+    *   **`python/windows_temp_cleaner.py`**: Automated server cleanup utility designed for IT system administrators, deleting expired log files and cleaning up system folders safely based on time thresholds.
+    *   **`python/windows_service_watchdog.py`**: Automatic Windows system service checking loop that monitors database and server instances in real-time, restarting them if a failure or crash occurs.
+    *   **`python/rest_api_assertion.py`**: Advanced QA testing script designed to perform automated GET/POST assertions, testing schema parameters, and ensuring payload response speeds meet performance SLAs.
+    *   **`python/system_telemetry_reporter.py`**: Diagnostics gathering log script which retrieves core system build releases, memory partition limits, storage ratios, and packages findings into standalone log documents.
+    *   **`python/selenium_e2e_tester.py`**: Standardized testing pipeline utilizing Selenium browser controllers to launch, click, and assert complex UI forms on deployed servers.
+    *   **`python/secure_backup.py`**: Robust backup compression utility designed to package and archive production-ready server paths securely into compressed zip blocks.
 
 ---
 
