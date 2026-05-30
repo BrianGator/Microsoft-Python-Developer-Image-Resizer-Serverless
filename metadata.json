@@ -1,0 +1,6 @@
+{
+  "name": "Serverless Python Image Resizer",
+  "description": "An interactive learning workspace and simulator of an Azure Function serverless Python backend to resize and optimize photos in Azure Blob Storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
