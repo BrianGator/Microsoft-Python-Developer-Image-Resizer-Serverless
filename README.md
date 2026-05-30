@@ -1,4 +1,3 @@
-# Microsoft Server Developer Project 
 # Serverless Python Image Resizer Sandbox
 
 An interactive learning platform, serverless sandbox, and virtual cloud simulation environment designed to demonstrate real-world Python automation utilizing Microsoft Azure Functions and Azure Blob Storage triggers.
